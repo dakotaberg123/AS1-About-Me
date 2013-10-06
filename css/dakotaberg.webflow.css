@@ -1,0 +1,320 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1 {
+  margin: 0px -8px 10px 0px;
+  padding-right: 2px;
+  float: left;
+  font-family:'Great Vibes', cursive;
+  color: white;
+  font-size: 46px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: -11px -5px 10px 0px;
+  float: right;
+  color: white;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: -11px -4px 10px 0px;
+  float: left;
+  color: #cf6e00;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: right;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin: -40px 1px -3px 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 0px;
+  float: left;
+  color: #5e5e5e;
+  font-size: 17px;
+  text-align: left;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.main-image {
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.paragraph-2 {
+  margin-top: -14px;
+  margin-bottom: 19px;
+  padding-top: 3px;
+  padding-bottom: 30px;
+  color: #292929;
+}
+.link-box {
+  margin-top: 97px;
+  margin-right: 35px;
+  margin-left: 35px;
+  background-color: #cf6e00;
+  background-image: url(../images/facebook%20logo.png);
+  background-size: 70px;
+}
+.link-box._1 {
+  background-image: url(../images/facebook%20logo.png);
+}
+.link-box.facebook {
+  background-image: url(../images/facebook%20logo.png);
+  background-position: 1% 0px;
+  background-size: 47px;
+  background-attachment: scroll;
+}
+.link-box.behance {
+  background-image: none;
+}
+.link-box.dribbble {
+  background-image: url(../images/facebook%20logo.png);
+}
+.link-box.youtube {
+  background-image: url(../images/facebook%20logo.png);
+}
+.links {
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 3px 0px;
+  float: right;
+  border: 4px solid #cf6e00;
+  border-radius: 12px;
+  background-color: #cf6e00;
+  background-image: none;
+  opacity: 1;
+  direction: ltr;
+  color: black;
+  font-size: 13px;
+  text-align: center;
+  text-shadow: none;
+}
+.link.facebook {
+  font-size: 40px;
+}
+.column-1 {
+  margin-top: 55px;
+  padding-right: 14px;
+  padding-bottom: 45px;
+  padding-left: 14px;
+  background-color: #cf6e00;
+}
+.column-2 {
+  margin-top: 55px;
+  margin-bottom: 5px;
+  padding-right: 16px;
+  padding-bottom: 45px;
+  padding-left: 15px;
+  background-color: #cf6e00;
+}
+.facebook {
+  width: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  float: none;
+  box-shadow: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-indent: 0px;
+}
+.behance {
+  padding-left: 30px;
+  color: white;
+  font-size: 20px;
+}
+.youtube {
+  padding-left: 30px;
+  color: white;
+  font-size: 20px;
+}
+.dribbble {
+  padding-left: 30px;
+  color: white;
+  font-size: 18px;
+}
+.twitter {
+  padding-right: 0px;
+  padding-left: 30px;
+  direction: ltr;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.five-links {
+  padding-top: 53px;
+  text-align: center;
+}
+.header {
+  margin-bottom: 75px;
+  background-color: black;
+}
+.seperator {
+  margin-top: 72px;
+  color: #292929;
+}
+.logo-container {
+  margin-top: 102px;
+  text-align: center;
+}
+.wild-cocks-logo {
+  margin-right: 45px;
+  margin-left: 5px;
+  padding-right: 0px;
+}
+.big-iron-customs-logo {
+  margin-right: 45px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.online-poker-concierge-logo {
+  margin-right: 45px;
+  padding-top: 40px;
+}
+.heretic-films-logo {
+  margin-right: 45px;
+}
+.king-kong-photography-logo {
+  margin-right: 0px;
+  padding-top: 40px;
+}
+.footer {
+  margin-top: 30px;
+  background-color: black;
+}
+@media (max-width: 991px) {
+  h1 {
+    font-size: 41px;
+  }
+  .wild-cocks-logo {
+    margin-right: 15px;
+    margin-left: 17px;
+  }
+  .big-iron-customs-logo {
+    margin-right: 15px;
+  }
+  .online-poker-concierge-logo {
+    margin-right: 15px;
+    padding-top: 12px;
+  }
+  .heretic-films-logo {
+    margin-right: 15px;
+    padding-top: 12px;
+  }
+  .king-kong-photography-logo {
+    padding-top: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .wild-cocks-logo {
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 42px;
+  }
+  .big-iron-customs-logo {
+    margin-top: 17px;
+    margin-right: 135px;
+    margin-left: 158px;
+  }
+  .online-poker-concierge-logo {
+    margin-right: 28px;
+    margin-left: 51px;
+    padding-top: 17px;
+  }
+  .heretic-films-logo {
+    margin-left: 37px;
+    padding-top: 17px;
+  }
+  .king-kong-photography-logo {
+    margin-right: 15px;
+    margin-left: 38px;
+    padding-top: 17px;
+  }
+}
+@media (max-width: 479px) {
+  h1 {
+    font-size: 35px;
+  }
+  .facebook {
+    padding-left: 12px;
+    font-size: 12px;
+  }
+  .behance {
+    padding-left: 12px;
+    font-size: 12px;
+  }
+  .youtube {
+    padding-left: 12px;
+    font-size: 12px;
+  }
+  .dribbble {
+    padding-left: 12px;
+    font-size: 12px;
+  }
+  .twitter {
+    padding-left: 12px;
+    font-size: 12px;
+  }
+  .five-links {
+    font-size: 4px;
+  }
+  .wild-cocks-logo {
+    margin-right: 28px;
+    margin-bottom: 17px;
+    margin-left: 27px;
+  }
+  .big-iron-customs-logo {
+    margin-right: -32px;
+    margin-bottom: 17px;
+    margin-left: -34px;
+  }
+  .online-poker-concierge-logo {
+    margin-right: -9px;
+    margin-bottom: 17px;
+    margin-left: -13px;
+  }
+  .heretic-films-logo {
+    margin-bottom: 17px;
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+  .king-kong-photography-logo {
+    margin-right: -9px;
+    margin-left: -10px;
+  }
+}
